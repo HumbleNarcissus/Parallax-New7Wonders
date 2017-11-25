@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8 {
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.i1 {
+    background-image: url('https://i.ytimg.com/vi/7HDi-cC3yWY/maxresdefault.jpg');
+    min-height: 100%;
+}
+
+
+.i2 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/30/23/36/the-great-wall-2190047_960_720.jpg');
+    min-height: 500px;
+}
+
+
+.i3 {
+    background-image: url('https://cdn.pixabay.com/photo/2013/09/13/12/24/jordan-181912_960_720.jpg');
+    min-height: 500px;
+}
+
+.i4 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/28/14/45/the-colosseum-2182367_960_720.jpg');
+    min-height: 500px;
+}
+
+.i5 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/07/11/17/pyramid-2826190_960_720.jpg');
+    min-height: 500px;
+}
+
+.i6 {
+    background-image: url('https://cdn.pixabay.com/photo/2012/04/26/22/48/machu-picchu-43387_960_720.jpg');
+    min-height: 500px;
+}
+
+.i7 {
+    background-image: url('https://cdn.pixabay.com/photo/2014/06/30/08/09/taj-mahal-380045_960_720.jpg');
+    min-height: 500px;
+}
+
+.i8 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/01/15/21/49/rio-de-janeiro-1142442_960_720.jpg');
+    min-height: 100%;
+}
+
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.text {
+    position: absolute;
+    top: 3%;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text .border {
+    background-color: rgb(1, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 12px;
+}
